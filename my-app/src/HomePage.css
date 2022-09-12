@@ -1,0 +1,79 @@
+    .hero-container {
+    margin-bottom: 25vh;
+   
+    }   
+   
+    .hero-btns {
+         padding-top: 4%;
+   
+         /*Centers this at the center of the screen and makes it responsive*/
+         text-align: center;  
+    }
+   
+   #video{
+    margin-top: 100px;
+   
+   }
+
+
+     /*this is how you access a video property*/
+     video {
+       object-fit: fill;
+       width: 150%;
+       height: 100%;
+       position: fixed; /*fixed positions the element based on the entire html page, so that when you 
+                         specify certain positions based on top, right, bottom, left attributes, the position co-ordinates are
+                         based on the entire html page & it makes the image exist on viewport regardless of you scrolling, 
+                         its stuck on screen based on its height and width*/
+       top: 2.5em;       /*positioning of the element*/
+       right:0em;
+       z-index: -2;    /*To push the image behind so that whatever text that was meant to be shown can be seen
+                         in front of the image*/
+     }
+
+
+    /*max-width: 800px means from 0px of width to a max of 800px*/
+  @media screen and (max-width: 800px){
+     
+    #MainHeader{
+      padding-top: 8%;     /*pushes the heading down a bit*/
+      font-size: 3em;       /*font size responsive*/
+      text-align: center;  
+      margin: 1rem auto;         /*margin responsive*/
+      font-family: 'Arial';
+      font-weight: bold
+    }
+    
+    #SubHeader{
+      font-size: 1.5em;       /*font size responsive*/
+      text-align: center;  
+      margin: 0.5rem auto;   /*margin responsive*/
+      font-family: 'Arial';
+      font-weight: bold
+    }
+
+   }
+  
+   /*min-width: 800px means from > 800px of width to a min of 800px*/
+   @media screen and (min-width: 800px){
+  
+
+    #MainHeader{
+      padding-top: 8%;     /*pushes the heading down a bit*/
+      font-size: 5em;       /*font size responsive*/
+      text-align: center;  
+      margin: 1rem auto;         /*margin responsive*/
+      font-family: 'Arial';
+      font-weight: bold
+    }
+    
+    #SubHeader{
+      font-size: 2.5em;       /*font size responsive*/
+      text-align: center;  
+      margin: 0.5rem auto;   /*margin responsive*/
+      font-family: 'Arial';
+      font-weight: bold
+    }
+
+     
+   }

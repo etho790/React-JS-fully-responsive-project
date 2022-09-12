@@ -1,0 +1,54 @@
+#NavBar{
+    position: sticky;   /*Makes the Nav bar stick on screen THE minute the element
+                          reaches the position specified by the co-ordinates attributes used
+                          ie; top, bottom, left & right */
+
+    top: 0;             /*positioning of the element*/
+    z-index: 999;       /*renders the element always in front so that you can see the element always */
+}
+
+
+/*min-width: 600px means from > 600px of width to a min of 600px*/
+@media screen and (min-width: 600px){
+    #MobileIconDropdown{
+        /*hide the icon & show all the other elements*/        
+        display: none;          
+    }
+
+    #NavElements{
+              
+        visibility: visible; 
+        font-weight: bold;
+        font-size: 20px; 
+    }
+}
+
+/*max-width: 600px means from 0px of width to a max of 600px*/
+@media screen and (max-width: 600px) {
+    #MobileIconDropdown{
+        /*show the icon & hide all the other elements*/        
+        display: block;            
+    }
+    
+    
+    
+    #NavElements{
+              
+        visibility: hidden; /*Hides the elements, but the spaces they hold still is preserved */
+    }
+    
+    #ExpandElements{    
+        /*centers all elements in the miidle*/
+        display: block;
+        text-align: center; /*Centres all the text to the centre*/
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        text-decoration: none;
+        font-size: 1.5rem;     /*font size*/      
+        color: #fff;         
+        transition: 1.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+    }   
+
+}
