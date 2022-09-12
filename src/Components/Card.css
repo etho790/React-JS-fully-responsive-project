@@ -26,8 +26,36 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   }
 
   #BlackOverlay{
-    height: 135em
+    height: 90em
   }
+
+      /*min-height: 390px means from > 390px of width to a min of 390px*/
+      @media screen and (min-height:390px) {
+              
+        #BlackOverlay{
+          height: 380vh
+        }
+
+      }
+
+      /*min-height: 480px means from > 480px of width to a min of 480px*/
+      @media screen and (min-height:480px) {
+            
+        #BlackOverlay{
+          height: 360vh
+        }
+
+      }
+
+      /*min-height: 700px means from > 700px of width to a min of 700px*/
+      @media screen and (min-height:700px) {
+            
+        #BlackOverlay{
+          height: 345vh
+        }
+
+      }
+
  }
 
 
@@ -54,8 +82,18 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   }
   
   #BlackOverlay{
-    height: 85em
+    height: 80em
   }
+
+  /*min-height: 720px means from > 720px of width to a min of 720px*/
+  @media screen and (min-height:720px) {
+        
+    #BlackOverlay{
+      height: 175vh
+    }
+
+  }
+
  }
 
 /*min-width: 1050px means from > 1050px of width to a min of 1050px*/
@@ -80,11 +118,37 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   }
   
 #BlackOverlay{
-  height: 85em
+  height: 55em
 }
 
-}
+        /*min-height: 380px means from > 380px of width to a min of 380px*/
+        @media screen and (min-height:380px) {
+                
+          #BlackOverlay{
+            height: 250vh
+          }
 
+        }
+
+
+       /*min-height: 440px means from > 440px of width to a min of 440px*/
+       @media screen and (min-height:440px) {
+        
+        #BlackOverlay{
+          height: 215vh
+        }
+
+      }
+
+      /*min-height: 610px means from > 610px of width to a min of 610px*/
+      @media screen and (min-height:610px) {
+        
+        #BlackOverlay{
+          height: 190vh
+        }
+
+      }
+}
 
 
 

@@ -14,7 +14,7 @@ import Beach from '../images/img-10.jpg'
 import Carribeanpicture from '../images/img-2.jpg'
 import black_background from '../images/BlackBackground.jpg'
 import PalmCoveBeach from '../images/img-11.jpg'
-
+import Footer from "./Footer"; 
 
 
 const Cards=()=>{
@@ -130,22 +130,22 @@ const Cards=()=>{
                     <MDBCol size='md' id='FirstRowCards'>
                         <div>
                            
-                            <MDBCard class="d-flex justify-content-center align-items-center " style ={{ height: '50vh', width: '38vw', textAlign: 'center'}} >     
+                            <MDBCard class="d-flex justify-content-center align-items-center " style ={{ height: '50vh', width: '38vw', textAlign: 'center', flexWrap: 'wrap'}} >     
                    
                                     <div>
                                     {iterator.ShowDescription ? <React.Fragment>
                                                                     <div class="card text-white bg-dark  mb-3" className="card-img" style={{objectFit: 'fill', height: '28vh', width: '40vw', marginTop: '9em'}}/>        
-                                                                    <a class="btn btn-dark"  type="button" style={{width: '40vw'}} onClick={(e)=>Clickable(iterator)}>
+                                                                    <button  class="btn btn-dark"   style={{width: '40vw'}} onClick={(e)=>Clickable(iterator)}>
                                                                         Click for more Info
-                                                                        </a>
+                                                                    </button >
                                                                     <h1 class="text-white"  id='DESCRIPTION'>{iterator.Description}</h1>          
                                                                 </React.Fragment>
                                                                 : 
                                                                 <React.Fragment>
                                                                                         <img src={iterator.Picture} className="card-img" style={{objectFit: 'fill', height: '30vh', width: '40vw'}}/>  
-                                                                                            <a class="btn btn-dark" data-mdb-ripple-color="dark" type="button" style={{width: '40vw'}} onClick={(e)=>Clickable(iterator)}>
+                                                                                            <button  class="btn btn-dark" data-mdb-ripple-color="dark"  style={{width: '40vw'}} onClick={(e)=>Clickable(iterator)}>
                                                                                             Click for more Info
-                                                                                            </a>   
+                                                                                            </button >   
                                                                                         <h1 class="text-white"  id='TEXT'>{iterator.Caption}</h1>
                                                                                     </React.Fragment>}                            
                                     </div>           
@@ -160,10 +160,10 @@ const Cards=()=>{
                 </MDBRow>
                 </MDBCardOverlay>
                 
-                        
+                
             </MDBCard>
 
-
+            <Footer/>
 
         </div>
        
