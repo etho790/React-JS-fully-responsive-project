@@ -82,17 +82,26 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   }
   
   #BlackOverlay{
-    height: 80em
+    height: 65em
   }
 
-  /*min-height: 720px means from > 720px of width to a min of 720px*/
-  @media screen and (min-height:720px) {
-        
-    #BlackOverlay{
-      height: 175vh
+    /*min-height: 520px means from > 520px of width to a min of 520px*/
+    @media screen and (min-height:520px) {
+            
+      #BlackOverlay{
+        height: 195vh
+      }
+
     }
 
-  }
+    /*min-height: 670px means from > 670px of width to a min of 670px*/
+    @media screen and (min-height:670px) {
+          
+      #BlackOverlay{
+        height: 178vh
+      }
+
+    }
 
  }
 
