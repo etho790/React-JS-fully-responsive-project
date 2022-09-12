@@ -7,10 +7,6 @@ import OZpromoVideo from './videos/OZvid.mp4'
 
 
 
-//FIX VIDEO AND MAKE IT SMOOTH AND THE RIGHT RESOLUTION AND ADD INFO FOR EACH OF THE CARDS
-
-
-
 const HomePage = () => {
 
     const [Menuclick, setMenuclick] = useState(true);

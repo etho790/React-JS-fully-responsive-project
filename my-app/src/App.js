@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar';
 import Homepage from './HomePage.js';
 import  Card  from './Components/Card';
 import Footer from './Components/Footer';
-import InformationPage from './Components/InformationPage';
+
 function App() {
   return (
     <>
