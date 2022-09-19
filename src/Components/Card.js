@@ -158,8 +158,28 @@ const Cards=()=>{
                 
                 ))}               
                 </MDBRow>
-                </MDBCardOverlay>
+
                 
+               
+            
+
+                </MDBCardOverlay>
+                 {/*PAGINATION*/}
+            
+                 <ul class="pagination justify-content-center pagination-lg" style ={{marginTop: '1em'}}>
+                        <li class="page-item">
+                            <a class="page-link">Previous</a>
+                        </li>
+                        <li class="page-item active" aria-current="page">
+                            <span class="page-link">
+                                1
+                                <span class="visually-hidden">(current)</span>
+                            </span>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" >Next</a>
+                        </li>
+                    </ul>
                 
             </MDBCard>
 
