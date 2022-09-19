@@ -26,14 +26,14 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   }
 
   #BlackOverlay{
-    height: 90em
+    height: 95em
   }
 
       /*min-height: 390px means from > 390px of width to a min of 390px*/
       @media screen and (min-height:390px) {
               
         #BlackOverlay{
-          height: 380vh
+          height: 410vh
         }
 
       }
@@ -42,7 +42,7 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
       @media screen and (min-height:480px) {
             
         #BlackOverlay{
-          height: 360vh
+          height: 380vh
         }
 
       }
@@ -51,7 +51,7 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
       @media screen and (min-height:700px) {
             
         #BlackOverlay{
-          height: 345vh
+          height: 350vh
         }
 
       }
@@ -82,14 +82,14 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   }
   
   #BlackOverlay{
-    height: 65em
+    height: 70em
   }
 
     /*min-height: 520px means from > 520px of width to a min of 520px*/
     @media screen and (min-height:520px) {
             
       #BlackOverlay{
-        height: 195vh
+        height: 220vh
       }
 
     }
@@ -98,7 +98,7 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
     @media screen and (min-height:670px) {
           
       #BlackOverlay{
-        height: 178vh
+        height: 195vh
       }
 
     }
@@ -123,11 +123,11 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   
   #DESCRIPTION{
     transform: translateY(-150%);
-    font-size: 0.9em;     
+    font-size: 0.95em;     
   }
   
 #BlackOverlay{
-  height: 55em
+  height: 60em
 }
 
         /*min-height: 380px means from > 380px of width to a min of 380px*/
@@ -144,7 +144,7 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
        @media screen and (min-height:440px) {
         
         #BlackOverlay{
-          height: 215vh
+          height: 230vh
         }
 
       }
@@ -153,13 +153,47 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
       @media screen and (min-height:610px) {
         
         #BlackOverlay{
-          height: 190vh
+          height: 210vh
         }
 
       }
 }
 
+@media screen and (min-width: 1620px){
 
+  #FirstRowCards {
+    padding-left: 2vw;
+    padding-right: 1vw;
+    margin: 1em;
+    
+  }
+
+  #TEXT{
+    font-size: 2.5em;
+    transform: translateY(-250%);   
+    
+  }
+  
+  #DESCRIPTION{
+    transform: translateY(-150%);
+    font-size: 0.95em;     
+  }
+  
+#BlackOverlay{
+  height: 85em
+}
+
+
+ /*min-height: 380px means from > 380px of width to a min of 380px*/
+ @media screen and (min-height:640px) {
+                
+  #BlackOverlay{
+    height: 210vh
+  }
+
+}
+
+}
 
  video {
   object-fit: fill;
