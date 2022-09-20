@@ -1,12 +1,90 @@
 
-  
- 
-/*HAVE TO SPECIFY THE LOOK OF THE CARDS WHEN YOU CHANGE THE SIZE OF THE WINDOW 
+ /*HAVE TO SPECIFY THE LOOK OF THE CARDS WHEN YOU CHANGE THE SIZE OF THE WINDOW 
 OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
 /*PRIMARILY FOR THE ROW OF CARDS*/
 
-/*max-width: 800px means from 0px of width to a max of 800px*/
-  @media screen and (max-width: 800px){
+
+  /*max-width: 330px means from 0px of width to a max of 330px*/
+@media screen and (max-width: 330px){
+  #FirstRowCards {
+    padding-left: 25vw;
+    padding-right: 30vw;
+    margin: 1em;
+    
+  }
+
+  #TEXT{
+    font-size: 0.80em;
+    transform: translateY(-700%);
+  }
+
+  #DESCRIPTION{
+    font-size: 0.40em;   
+    transform: translateY(-170%);      
+  }   
+
+  #BlackOverlay{
+    height: 95em
+  }
+
+   /*max-height: 200px means from 0px of height to a max of 200px*/
+   @media screen and (max-height:200px) {
+                        
+    #DESCRIPTION{
+      font-size: 0.4em;
+      transform: translateY(-185%);              
+    }
+
+  }
+  
+  /*states to make changes between 200px and 330px*/
+  @media screen and (min-height:200px) and (max-height:330px) {
+                                          
+    #DESCRIPTION{
+      font-size: 0.4em;
+      transform: translateY(-150%);              
+    }
+
+  }
+
+
+  /*BLACK OVERLAY*/
+  /*min-height: 390px means from > 390px of height to a min of 390px*/
+  @media screen and (min-height:390px) {
+          
+    #BlackOverlay{
+      height: 410vh
+    }
+
+  }
+
+  /*min-height: 480px means from > 480px of height to a min of 480px*/
+  @media screen and (min-height:480px) {
+        
+    #BlackOverlay{
+      height: 380vh
+    }
+
+  }
+
+  /*min-height: 700px means from > 700px of height to a min of 700px*/
+  @media screen and (min-height:700px) {
+        
+    #BlackOverlay{
+      height: 350vh
+    }
+
+  }
+}
+
+
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*This is specifying the changes to occur between a width of 330px and 1050px*/
+  @media screen and (min-width:330px) and (max-width: 800px){
   #FirstRowCards {
     padding-left: 25vw;
     padding-right: 30vw;
@@ -20,46 +98,68 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   }
 
   #DESCRIPTION{
-    transform: translateY(-150%);
-    font-size: 0.58em;
+    font-size: 0.45em;   
+    transform: translateY(-150%);  
     
   }
 
+  
   #BlackOverlay{
     height: 95em
   }
 
-      /*min-height: 390px means from > 390px of width to a min of 390px*/
-      @media screen and (min-height:390px) {
+        /*max-height: 200px means from 0px of height to a max of 200px*/
+        @media screen and (max-height:200px) {
+                        
+          #DESCRIPTION{
+            font-size: 0.4em;
+            transform: translateY(-185%);              
+          }
+
+        }
+        
+        /*states to make changes between 200px and 330px*/
+        @media screen and (min-height:200px) and (max-height:330px) {
+                                                
+          #DESCRIPTION{
+            font-size: 0.4em;
+            transform: translateY(-150%);              
+          }
+
+        }
+
+
+        /*BLACK OVERLAY*/
+        /*min-height: 390px means from > 390px of height to a min of 390px*/
+        @media screen and (min-height:390px) {
+                
+          #BlackOverlay{
+            height: 410vh
+          }
+
+        }
+
+        /*min-height: 480px means from > 480px of height to a min of 480px*/
+        @media screen and (min-height:480px) {
               
-        #BlackOverlay{
-          height: 410vh
+          #BlackOverlay{
+            height: 380vh
+          }
+
         }
 
-      }
+        /*min-height: 700px means from > 700px of height to a min of 700px*/
+        @media screen and (min-height:700px) {
+              
+          #BlackOverlay{
+            height: 350vh
+          }
 
-      /*min-height: 480px means from > 480px of width to a min of 480px*/
-      @media screen and (min-height:480px) {
-            
-        #BlackOverlay{
-          height: 380vh
         }
-
-      }
-
-      /*min-height: 700px means from > 700px of width to a min of 700px*/
-      @media screen and (min-height:700px) {
-            
-        #BlackOverlay{
-          height: 350vh
-        }
-
-      }
-
  }
 
 
-
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*This is specifying the changes to occur between a width of 800px and 1050px*/
  @media screen and (min-width:800px) and (max-width:1050px) {
 
@@ -77,33 +177,70 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   }
   
   #DESCRIPTION{
-    font-size: 0.76em;
+    font-size: 1em;     
     transform: translateY(-150%);
   }
   
   #BlackOverlay{
     height: 70em
   }
+     
+        /*max-height: 230px means from 0px of height to a max of 230px*/
+          @media screen and (max-height:230px) {
+                                                
+            #DESCRIPTION{
+              font-size: 0.40em;
+              transform: translateY(-185%);              
+            }
 
-    /*min-height: 520px means from > 520px of width to a min of 520px*/
-    @media screen and (min-height:520px) {
-            
-      #BlackOverlay{
-        height: 220vh
-      }
+          }
 
-    }
+        /*states to make changes between 230px and 450px*/
+        @media screen and (min-height:230px) and (max-height:450px) {
+                                        
+          #DESCRIPTION{
+            font-size: 0.55em;
+            transform: translateY(-185%);              
+          }
 
-    /*min-height: 670px means from > 670px of width to a min of 670px*/
-    @media screen and (min-height:670px) {
-          
-      #BlackOverlay{
-        height: 195vh
-      }
+        }
 
-    }
+
+        /*states to make changes between 450px and 800px*/
+        @media screen and (min-height:450px) and (max-height:800px) {
+                                
+          #DESCRIPTION{
+            font-size: 0.8em;
+            transform: translateY(-120%);              
+          }
+
+        }
+
+   
+        /*BLACK OVERLAY*/
+        /*min-height: 520px means from > 520px of height to a min of 520px*/
+        @media screen and (min-height:520px) {
+                
+          #BlackOverlay{
+            height: 220vh
+          }
+        }
+
+        /*min-height: 670px means from > 670px of height to a min of 670px*/
+        @media screen and (min-height:670px) {
+              
+          #BlackOverlay{
+            height: 195vh
+          }
+
+        }
 
  }
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /*min-width: 1050px means from > 1050px of width to a min of 1050px*/
 @media screen and (min-width: 1050px){
@@ -115,6 +252,12 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
     
   }
 
+  /*BUTTONS MARGIN FOR WHEN THE CARDS FLIP TO THE SIDE WITH DESCRIPTION */
+  #cardflipButton{
+    margin-bottom: 2em;
+
+  }
+
   #TEXT{
     font-size: 2.5em;
     transform: translateY(-250%);   
@@ -123,16 +266,45 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   
   #DESCRIPTION{
     transform: translateY(-150%);
-    font-size: 0.95em;     
+    font-size: 0.85em;     
   }
   
 #BlackOverlay{
   height: 60em
 }
 
-        /*min-height: 380px means from > 380px of width to a min of 380px*/
-        @media screen and (min-height:380px) {
+          /*max-height: 350px means from 0px of height to a max of 350px*/
+          @media screen and (max-height:200px){                
+            #DESCRIPTION{
+              font-size: 0.45em;
+              transform: translateY(-240%);              
+            }
+
+          }          
+
+        /*max-height: 350px means from 0px of height to a max of 350px*/
+        @media screen and (min-height:200px) and (max-height:350px) {                
+          #DESCRIPTION{
+            font-size: 0.6em;
+            transform: translateY(-200%);              
+          }
+
+        }
                 
+        /*states to make changes between 350px and 400px*/
+          @media screen and (min-height:350px) and (max-height:400px) {
+                                                  
+            #DESCRIPTION{
+              font-size: 0.65em;
+              transform: translateY(-210%);              
+            }
+
+          }
+
+
+        /*BLACK OVERLAY*/
+        /*min-height: 380px means from > 380px of width to a min of 380px*/
+        @media screen and (min-height:380px) {                
           #BlackOverlay{
             height: 250vh
           }
@@ -159,13 +331,16 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
       }
 }
 
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*min-width: 1620px means from > 1620px of width to a min of 1620px*/
 @media screen and (min-width: 1620px){
 
   #FirstRowCards {
     padding-left: 2vw;
     padding-right: 1vw;
-    margin: 1em;
-    
+    margin: 1em;    
   }
 
   #TEXT{
@@ -175,23 +350,33 @@ OTHERWISE THE CARDS WILL STICK TO THE LEFT AS THE COLUMNS MOVE TO NEW ROWS*/
   }
   
   #DESCRIPTION{
-    transform: translateY(-150%);
-    font-size: 0.95em;     
+    transform: translateY(-185%);
+    font-size: 0.90em;     
   }
   
 #BlackOverlay{
-  height: 85em
+  height: 80em
 }
 
+        /*max-height: 300px means from 0px of height to a max of 300px*/
+        @media screen and (max-height:300px) {                
+          #DESCRIPTION{
+            font-size: 0.65em;
+            transform: translateY(-250%);              
+          }
 
- /*min-height: 380px means from > 380px of width to a min of 380px*/
- @media screen and (min-height:640px) {
-                
-  #BlackOverlay{
-    height: 210vh
+          
+        }
+
+      /*BLACK OVERLAY*/ 
+      
+      /*min-height: 640px means from > 640px of height to a min of 640px*/
+      @media screen and (min-height:640px) {
+                      
+        #BlackOverlay{
+          height: 210vh
+        }
   }
-
-}
 
 }
 

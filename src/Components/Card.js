@@ -14,6 +14,8 @@ import Beach from '../images/img-10.jpg'
 import Carribeanpicture from '../images/img-2.jpg'
 import black_background from '../images/BlackBackground.jpg'
 import PalmCoveBeach from '../images/img-11.jpg'
+
+
 import Footer from "./Footer"; 
 
 
@@ -134,8 +136,8 @@ const Cards=()=>{
                    
                                     <div>
                                     {iterator.ShowDescription ? <React.Fragment>
-                                                                    <div class="card text-white bg-dark  mb-3" className="card-img" style={{objectFit: 'fill', height: '28vh', width: '40vw', marginTop: '9em'}}/>        
-                                                                    <button  class="btn btn-dark"   style={{width: '40vw'}} onClick={(e)=>Clickable(iterator)}>
+                                                                    <div class="card text-white bg-dark  mb-3" className="card-img" style={{objectFit: 'fill', height: '28vh', width: '40vw', marginTop: '1em'}}/>        
+                                                                    <button  class="btn btn-dark"  id="cardflipButton" style={{width: '40vw'}} onClick={(e)=>Clickable(iterator)}>
                                                                         Click for more Info
                                                                     </button >
                                                                     <h1 class="text-white"  id='DESCRIPTION'>{iterator.Description}</h1>          
