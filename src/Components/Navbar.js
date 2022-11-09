@@ -18,11 +18,7 @@ function Navbar(){
                                             //value of the different names of the webpages do you see that its e.target.nextSibling.textContent
         setMenuclick(inputValue)
         
-        
-        if(Menuclick=="home")
-        {
-
-        }
+               
     }
 
 
